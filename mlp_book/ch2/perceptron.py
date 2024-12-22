@@ -35,6 +35,7 @@ class Perceptron:
                 self.b += update
                 if (update != 0.0):
                     error += 1
+                # error += int(update != 0.0)
             self.errors.append(error)
         return self
     
